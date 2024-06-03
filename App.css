@@ -1,0 +1,68 @@
+.todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: large;
+}
+#msg{
+  font-size: 0.8rem;
+}
+.but{
+  display: flex;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+input{
+  height: 35px;
+  width: 400px;
+  font-size: medium;
+}
+.bu{
+  padding: 0 10px;
+  margin-left: auto;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  height: 41px;
+  width: 50px;
+  border: none;
+  font-size: 1rem;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+
+.checkbox{
+  margin-right: 215px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.checkbox .icon {
+  margin-left:  0px;
+  font-size: 15px;
+
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon{
+  cursor: pointer;
+}
+
+.line_through{
+  text-decoration: line-through;
+}
